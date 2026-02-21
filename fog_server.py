@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-THINGSPEAK_API_KEY = os.environ.get("THINGSPEAK_API_KEY")
+THINGSPEAK_API_KEY = os.environ.get("3KEQE9398VZ5NSW1")
 THINGSPEAK_URL = "https://api.thingspeak.com/update"
 
 @app.route("/update", methods=["POST"])
